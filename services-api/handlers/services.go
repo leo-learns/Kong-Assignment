@@ -3,8 +3,8 @@ package handlers
 import (
 	"github.com/gin-gonic/gin"
 	"net/http"
-	"services-api/services-api/db"
-	"services-api/services-api/models"
+	"services-api/db"
+	"services-api/models"
 	"strconv"
 )
 

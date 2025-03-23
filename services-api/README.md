@@ -4,7 +4,8 @@ A read-only API for a service catalog dashboard widget, built in Go.
 
 ## Features
 
-- **GET /services**: List services with filtering (by name/description), sorting (by any field), and pagination (limit/offset).
+- **GET /services**: List services with filtering (by name/description), sorting (by any field), and pagination (
+  limit/offset).
 - **GET /services/:id**: Fetch a specific service by its ID.
 - **GET /services/:id/versions**: Retrieve all versions of a specific service.
 
@@ -24,7 +25,8 @@ A read-only API for a service catalog dashboard widget, built in Go.
 
 ## Trade-offs
 
-- **SQLite**: Chosen over more robust databases (e.g., PostgreSQL) for simplicity, though it may not scale as well for concurrent writes (not a concern here since the API is read-only).
+- **SQLite**: Chosen over more robust databases (e.g., PostgreSQL) for simplicity, though it may not scale as well for
+  concurrent writes (not a concern here since the API is read-only).
 - **Minimal Validation**: Basic checks for pagination parameters; additional validation could be added for robustness.
 - **No Auth**: Authentication/authorization omitted due to time constraints but could be added with API keys or JWT.
 

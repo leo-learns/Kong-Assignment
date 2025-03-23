@@ -4,7 +4,7 @@ import (
 	"github.com/google/uuid"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
-	"services-api/services-api/models"
+	"services-api/models"
 )
 
 // DB is the global database connection
